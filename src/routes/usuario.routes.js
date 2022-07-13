@@ -10,4 +10,7 @@ api.put('/editarUsuario', md_autenticacion.Auth, usuarioControlador.EditarUsuari
 api.get('/obtenerperfil',[md_autenticacion.Auth], usuarioControlador.obtenermiperfin)
 api.delete('/eliminarperfil/:iduser', usuarioControlador.eliminarCuenta)
 
+
+
+
 module.exports = api;

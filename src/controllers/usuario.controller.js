@@ -141,6 +141,11 @@ function eliminarCuenta(req, res){
     })
 }
 
+
+function cuenta(req,res){
+    
+}
+
 module.exports = {
     RegistrarUsuario,
     Login,
